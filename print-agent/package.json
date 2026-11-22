@@ -1,0 +1,25 @@
+{
+  "name": "tableqr-print-agent",
+  "version": "1.0.0",
+  "description": "Local auto-print ESC/POS agent for TableQR KOT and bill thermal printing",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "simulate": "tsx src/index.ts --type=virtual"
+  },
+  "keywords": [
+    "escpos",
+    "thermal-printer",
+    "tableqr",
+    "kot",
+    "restaurant"
+  ],
+  "author": "TableQR Team",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.0.0"
+  }
+}
